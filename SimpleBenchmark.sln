@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BenchmarkingMethods", "Benc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BenchmarkingMethodsTest", "BenchmarkingMethodsTest\BenchmarkingMethodsTest.vcxproj", "{C1BC8F29-8E32-4E74-95E1-3C70ACE067FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkingLibrary", "BenchmarkingLibrary\BenchmarkingLibrary.csproj", "{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,18 @@ Global
 		{C1BC8F29-8E32-4E74-95E1-3C70ACE067FF}.Release|x64.Build.0 = Release|x64
 		{C1BC8F29-8E32-4E74-95E1-3C70ACE067FF}.Release|x86.ActiveCfg = Release|Win32
 		{C1BC8F29-8E32-4E74-95E1-3C70ACE067FF}.Release|x86.Build.0 = Release|Win32
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Debug|x64.Build.0 = Debug|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Debug|x86.Build.0 = Debug|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Release|x64.ActiveCfg = Release|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Release|x64.Build.0 = Release|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Release|x86.ActiveCfg = Release|Any CPU
+		{4DC4C731-0C41-4968-838A-DDAF5D4BAABE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
