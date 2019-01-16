@@ -4,15 +4,15 @@ namespace BenchmarkingLibrary
 {
     public abstract class AbstractBenchmarkTable : IBenchmarkTable
     {
-        public void Test(ref BenchmarkTest test)
+        public void Test(BenchmarkTest test)
         {
             var timer = Stopwatch.StartNew();
             timer.Start();
-            execute(test);
+            Execute(test);
             timer.Stop();
             test.Duration = timer.ElapsedMilliseconds;
         }
 
-        protected abstract void execute(BenchmarkTest test);
+        protected abstract void Execute(BenchmarkTest test);
     }
 }

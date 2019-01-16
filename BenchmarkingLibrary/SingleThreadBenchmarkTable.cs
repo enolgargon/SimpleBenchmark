@@ -2,7 +2,7 @@ namespace BenchmarkingLibrary
 {
     public class SingleThreadBenchmarkTable : AbstractBenchmarkTable
     {
-        protected override void execute(BenchmarkTest test)
+        protected override void Execute(BenchmarkTest test)
         {
             for (var i = 0; i < test.NTimes; i++)
                 test.Function.Invoke();
