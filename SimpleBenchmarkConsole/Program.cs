@@ -1,4 +1,6 @@
 ﻿using System;
+using BenchmarkingLibrary;
+using BenchmarkTableFactory;
 using CommandLine;
 using Testing;
 
@@ -14,6 +16,9 @@ namespace SimpleBenchmarkConsole
             ITest test = null;
             if (options.BasicTest)
                 test = new BasicTest();
+
+            if (options.MultiThread)
+                Configuration.BenchmarkTableFactory = new BenchmarkMultiTableFactory();
 
             if (test == null)
                 Console.WriteLine("You must specify one type of test at least");
