@@ -1,6 +1,9 @@
 using BenchmarkingLibrary;
+using BenchmarkTable;
+using SingleTesting;
+using Util;
 
-namespace SimpleBenchmarkConsole
+namespace Testing
 {
     public class BasicTest : AbstractTest
     {
@@ -30,7 +33,7 @@ namespace SimpleBenchmarkConsole
 
         public override void Execute()
         {
-            IBenchmarkTable benchmarkTable = BenchmarkTableFactory.CreateSingleThreadTable();
+            IBenchmarkTable benchmarkTable = Configuration.BenchmarkTableFactory.CreateTable();
             foreach (var test in Results.Values)
                 benchmarkTable.Test(test);
         }

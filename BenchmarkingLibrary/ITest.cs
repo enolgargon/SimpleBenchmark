@@ -1,4 +1,4 @@
-namespace SimpleBenchmarkConsole
+namespace Testing
 {
     public interface ITest
     {

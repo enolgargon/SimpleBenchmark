@@ -39,9 +39,15 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="AbstractBenchmarkTable.cs"/>
-        <Compile Include="BenchmarkTableFactory.cs"/>
+        <Compile Include="AbstractTest.cs"/>
+        <Compile Include="BasicTest.cs"/>
+        <Compile Include="BenchmarkMultiTableFactory.cs"/>
+        <Compile Include="BenchmarkSingleTableFactory.cs"/>
         <Compile Include="BenchmarkTest.cs"/>
+        <Compile Include="Configuration.cs"/>
         <Compile Include="IBenchmarkTable.cs"/>
+        <Compile Include="IBenchmarkTableFactory.cs"/>
+        <Compile Include="ITest.cs"/>
         <Compile Include="Methods.cs"/>
         <Compile Include="MultiThreadBenchmarkTable.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>

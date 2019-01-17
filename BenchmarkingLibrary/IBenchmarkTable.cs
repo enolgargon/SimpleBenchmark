@@ -1,4 +1,6 @@
-namespace BenchmarkingLibrary
+using SingleTesting;
+
+namespace BenchmarkTable
 {
     public interface IBenchmarkTable
     {

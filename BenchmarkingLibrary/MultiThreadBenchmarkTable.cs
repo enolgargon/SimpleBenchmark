@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
+using SingleTesting;
 
-namespace BenchmarkingLibrary
+namespace BenchmarkTable
 {
     public class MultiThreadBenchmarkTable : AbstractBenchmarkTable
     {

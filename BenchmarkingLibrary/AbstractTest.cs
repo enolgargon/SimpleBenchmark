@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using BenchmarkingLibrary;
+using SingleTesting;
 
-namespace SimpleBenchmarkConsole
+namespace Testing
 {
     public abstract class AbstractTest : ITest
     {

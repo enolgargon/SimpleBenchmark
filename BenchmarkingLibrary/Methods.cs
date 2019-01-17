@@ -1,8 +1,8 @@
 using System.Runtime.InteropServices;
 
-namespace SimpleBenchmarkConsole
+namespace Util
 {
-    public class Methods
+    public static class Methods
     {
         [DllImport("BenchmarkingMethods.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern int Add(int a, int b);

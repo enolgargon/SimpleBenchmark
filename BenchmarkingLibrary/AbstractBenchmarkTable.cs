@@ -1,6 +1,7 @@
 using System.Diagnostics;
+using SingleTesting;
 
-namespace BenchmarkingLibrary
+namespace BenchmarkTable
 {
     public abstract class AbstractBenchmarkTable : IBenchmarkTable
     {

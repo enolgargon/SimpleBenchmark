@@ -1,6 +1,6 @@
 using System;
 
-namespace BenchmarkingLibrary
+namespace SingleTesting
 {
     public class BenchmarkTest
     {
