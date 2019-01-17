@@ -44,7 +44,6 @@
     <ItemGroup>
         <Compile Include="AbstractTest.cs"/>
         <Compile Include="BasicTest.cs"/>
-        <Compile Include="Methods.cs"/>
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="ITest.cs"/>
@@ -57,18 +56,13 @@
             <Project>{4dc4c731-0c41-4968-838a-ddaf5d4baabe}</Project>
             <Name>BenchmarkingLibrary</Name>
         </ProjectReference>
-        <ProjectReference Include="..\BenchmarkingMethods\BenchmarkingMethods.vcxproj">
-            <Project>{1ebfdeb7-3180-4894-9ce1-69cfc8400969}</Project>
-            <Name>BenchmarkingMethods</Name>
-        </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-         Other similar extension points exist, see Microsoft.Common.targets.
-    <Target Name="BeforeBuild">
-    </Target>
-    <Target Name="AfterBuild">
-    </Target>
-    -->
-
+           Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+      -->
 </Project>
