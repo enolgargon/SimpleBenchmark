@@ -14,8 +14,8 @@
 
 
 // hacer referencia aquí a los encabezados adicionales que el programa necesita
-int add(int a, int b);
+extern "C" __declspec(dllexport) int Add(int a, int b);
 
-int sub(int a, int b);
+extern "C" __declspec(dllexport) int Sub(int a, int b);
 
-int mul(int a, int b);
+extern "C" __declspec(dllexport) int Mul(int a, int b);

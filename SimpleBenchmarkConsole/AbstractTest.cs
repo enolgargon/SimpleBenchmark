@@ -20,8 +20,9 @@ namespace SimpleBenchmarkConsole
             Console.WriteLine("Results");
             foreach (var key in Results.Keys)
             {
-                Console.WriteLine($"\t${key}:");
-                Console.WriteLine($"\t\tTime {Results[key].Duration}\tElapsed time: {Results[key].AverageDuration}");
+                Console.WriteLine($"\t{key}:");
+                Console.WriteLine(
+                    $"\t\tTotal time {Results[key].Duration}\tAverage time: {Results[key].AverageDuration}");
             }
         }
     }

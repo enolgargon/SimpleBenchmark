@@ -3,21 +3,21 @@
 
 #include "stdafx.h"
 
-int add(int a, int b) {
+int Add(int a, int b) {
 	__asm {
 		mov eax, a
 		add eax, b
 	}
 }
 
-int sub(int a, int b) {
+int Sub(int a, int b) {
 	__asm {
 		mov eax, a
 		sub eax, b
 	}
 }
 
-int mul(int a, int b) {
+int Mul(int a, int b) {
 	__asm {
 		mov eax, a
 		imul eax, b
