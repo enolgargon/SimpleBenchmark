@@ -15,5 +15,9 @@ namespace SimpleBenchmarkConsole
                 "Use this option to execute the test in multi-thread mode",
             Required = false)]
         public bool MultiThread { get; set; }
+
+        [Option('n', "number-of-times", HelpText = "Number of times to execute each test", Required = false,
+            DefaultValue = 1000)]
+        public int NumberOfTimes { get; set; }
     }
 }

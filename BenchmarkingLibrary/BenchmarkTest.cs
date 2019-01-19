@@ -7,7 +7,7 @@ namespace SingleTesting
         /// <summary>
         /// Number of times by default to execute the function
         /// </summary>
-        private const int DefaultNTimes = 50;
+        private const int DefaultNTimes = 1000;
 
         public BenchmarkTest(Action function, int nTimes = DefaultNTimes)
         {
