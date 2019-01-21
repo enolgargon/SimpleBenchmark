@@ -1,11 +1,10 @@
 # Contributors
 
 ## How to contribute?
-Currently, public contributions to the project are not accepted. If you really want to contribute please contact me through my email address enolgargon@gmail.com and we can talk about working together.
-In the future we will admit three types of contributions:
-* Report problems
-* Solve reported problems
+You can help me doing the next:
+* Report issues
+* Solve reported issues (or implement new improves). See issues and notify me. When you finish, you have to send me a pull request and I'll be grateful.
 * Implement new algorithms at the processor level
-When everything is better on track I will give more details.
+If you have any doubts, you can ask me through the email address: enolgargon@gmail.com
 
 ## List of contributors
